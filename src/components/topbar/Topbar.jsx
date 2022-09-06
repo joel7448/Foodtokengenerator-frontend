@@ -6,7 +6,7 @@ import pizza3 from '../../pizza3.png'
 import logo from "../../logo.png"
 import { ShoppingBag,Reviews, MenuBook,Menu } from "@mui/icons-material"
 import { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 function Topbar() {
 
@@ -43,6 +43,14 @@ let handlereview = ()=>{
   sethome(false);
 
 }
+const navigate = useNavigate()
+const logout = ()=>{
+  localStorage.removeItem("user");
+  localStorage.removeItem("token");
+  localStorage.removeItem("email");
+  navigate("/login")
+  
+}
 const id = localStorage.getItem('user');
   return (
    <div className="topbar-wrapper">
@@ -61,7 +69,7 @@ const id = localStorage.getItem('user');
           <img className="logopic" src={logo}></img>
         </div>
         <ul className="topbarRight">
-<li>Login</li>
+<li onClick={()=>{logout()}}>Logout</li>
 <li className="shopping"><span className="quantity">1</span><ShoppingBag/></li>
         </ul>
       
