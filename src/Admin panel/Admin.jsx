@@ -3,7 +3,7 @@ import Adminnavbar from "./Adminnavbar"
 import {AddShoppingCart, Home, LogoutOutlined, Sell, ShoppingCart} from "@mui/icons-material"
 import React, { PureComponent } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { DataGrid } from '@mui/x-data-grid';
+
 import { IconButton } from "@mui/material";
 import Homecards from "./Homecards";
 import { Link, useNavigate,  } from "react-router-dom";
