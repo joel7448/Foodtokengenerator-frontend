@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Grape+Nuts&family=Lobster&family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Quattrocento+Sans:ital@1&family=Roboto+Slab:wght@500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600&family=Water+Brush&display=swap');
+
+.servicecards-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.servicecards{
+height: 250px;
+width:250px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.servicedesc{
+    color:rgb(19 97 92) ;
+}
+.homefood{
+    position: relative;
+    top:25px;
+    height: 50px !important;
+    width: 50px !important;
+    color: rgb(19 97 92);
+    
+}
+.background{
+    height: 60px ;
+    width: 60px ;
+    border-radius: 50%;
+    background-color: #ffe9e2;
+}
+.icon-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+@media(min-width:768px){
+.servicecards-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.servicecards{
+height: 250px;
+width:250px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.servicedesc{
+    color:rgb(19 97 92) ;
+}
+.homefood{
+    position: relative;
+    top:25px;
+    height: 50px !important;
+    width: 50px !important;
+    color: rgb(19 97 92);
+    
+}
+.background{
+    height: 60px ;
+    width: 60px ;
+    border-radius: 50%;
+    background-color: #ffe9e2;
+}
+.icon-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+}

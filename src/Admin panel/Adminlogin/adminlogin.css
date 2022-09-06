@@ -1,0 +1,104 @@
+.loginWrapper{
+    display: grid;
+place-content: center;
+    min-height: 100vh;
+   
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+}
+
+.login-left{
+  
+    height: 500px;
+    width: 500px;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-top: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.login-icon{
+    height: 500px;
+    width: 500px;
+   
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.login-right{
+    border-bottom-right-radius:30px ;
+    border-top-right-radius:30px ;
+    height: 500px;
+    width: 500px;
+   padding-top: 50px;
+    display: flex;
+flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.login-right>p{
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:  rgb(19, 97, 92);
+    
+}
+.link{
+    color:inherit;
+    text-decoration: none;
+}
+
+.login-right input{
+height: 40px;
+width:200px;
+margin-bottom: 30px;
+border-radius: 10px;
+border:1px solid rgb(19, 97, 92, 0.3);
+letter-spacing: 2px;
+padding-left: 10px;
+}
+
+.accept:focus{
+    outline-color: rgb(19, 97, 92, 0.3)
+}
+.error:focus{
+    outline-color: rgba(242, 98, 98, 0.3);
+    background-color:  rgba(242, 98, 98, 0.3);
+}
+.login-right button{
+    height: 40px;
+    width:200px;
+    border-radius: 20px;
+    border: rgb(211, 211, 211, 0.5);
+    background-color: rgb(19, 97, 92);
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.login-right input{
+    width:450px;
+}
+.login-name{
+    display: flex;
+    justify-content: space-around;
+width:500px;
+}

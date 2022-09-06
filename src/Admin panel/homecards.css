@@ -1,0 +1,21 @@
+.homecard{
+    background-color: white;
+    width:300px;
+    height: 80px;
+    border-radius: 5px;
+   
+    font-family: "Roboto",sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.green{
+    border-left: 5px solid green; 
+}
+.yellow{
+    border-left: 5px solid yellow;
+}
+.blue{
+    border-left: 5px solid rgb(118, 118, 236);
+}

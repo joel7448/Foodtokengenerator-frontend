@@ -1,0 +1,121 @@
+.registerWrapper{
+    display: grid;
+place-content: center;
+    min-height: 100vh;
+   
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+}
+.warning{
+    color:red;
+    padding: 0 !important;
+    margin-top:-30px;
+    margin-bottom: 20px;
+    text-align: left;
+  
+}
+
+.register-left{
+  
+    height: 500px;
+    width: 500px;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-top: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.register-icon{
+    height: 500px;
+    width: 500px;
+   
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.register-right{
+    border-bottom-right-radius:30px ;
+    border-top-right-radius:30px ;
+    height: 500px;
+    width: 600px;
+   padding-top: 50px;
+    display: flex;
+flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.register-right>p{
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.register-right input{
+height: 40px;
+width:200px;
+margin-bottom: 30px;
+border-radius: 10px;
+border:1px solid rgb(19, 97, 92, 0.3);
+letter-spacing: 2px;
+padding-left: 10px;
+}
+
+.accept:focus{
+    outline-color: rgb(19, 97, 92, 0.3);
+    background-color: rgb(19, 97, 92, 0.3) ;
+}
+.error:focus{
+    outline-color: rgba(242, 98, 98, 0.3);
+    background-color:  rgba(242, 98, 98, 0.3);
+}
+.register-right button{
+    height: 40px;
+    width:200px;
+    border-radius: 20px;
+    border: rgb(211, 211, 211, 0.5);
+    background-color: rgb(19, 97, 92);
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+
+}
+.login-redirect{
+    color: rgb(19, 97, 92);
+}
+.register-right input{
+    width:520px;
+    
+}
+.register-name{
+    display: flex;
+
+    align-items: center;
+width:540px;    
+
+justify-content: space-between;
+
+}
+.register-name input{
+    width:250px ;
+  
+
+}
+
+.login-register{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}

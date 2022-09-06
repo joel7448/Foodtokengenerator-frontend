@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Grape+Nuts&family=Lobster&family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Quattrocento+Sans:ital@1&family=Roboto+Slab:wght@500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600&family=Water+Brush&display=swap');
+
+
+
+
+
+
+.pricetag>button{
+    border: none;
+    height: 40px;
+    color: white;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #ff784a;
+}
+.pricetag p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pricecardWrapper{
+  padding: 40px;
+  padding-top: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    flex-wrap: wrap;
+}
+.ratings{
+    color: #ff5a29;
+}
+.pricecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 550px;
+    width:300px;
+padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Roboto',sans-serif;
+
+}
+.add{
+    cursor: pointer;
+}
+.divider{
+    width:270px;
+    opacity: 0.5;
+}
+.pricetag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width:100%;
+
+}
+.titleanddesc{
+    padding-left: 20px;
+}
+.titlename{
+    margin-bottom: 0;
+    color:rgb(19 97 92);
+}
+.rating-wrapper{
+    
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+.desc{
+    margin-top: 0;
+    padding-right: 5px;
+
+    letter-spacing: 1px;
+    line-height: 25px;
+  color:  rgb(19 97 92);
+  font-style: italic;
+}
+
+
+
+
+.fooditem{
+    height: 250px;
+    width:300px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 0px;
+    
+    mix-blend-mode: lighten;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}

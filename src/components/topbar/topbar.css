@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Grape+Nuts&family=Lobster&family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Quattrocento+Sans:ital@1&family=Roboto+Slab:wght@500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600&family=Water+Brush&display=swap');
+
+.topbar-wrapper{
+    display: inline;
+}
+.topbarLeft{
+    display: none;
+    
+    position: absolute;
+    top:60px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 13px;
+    width:80px;
+    margin-left: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    height:100px;
+   background-color: rgb(19 97 92);
+  
+    padding-left:5px;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.hamburgericon{
+    display:inline !important;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+ul{
+    margin: 0;
+   
+
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    padding-left:40px ;
+
+   
+}
+.logopic{
+    margin-top: -15px;
+    height: 70px;
+    width: 80px;
+}
+.topbarLeft>li{
+    list-style: none;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    width:43px;
+    height: 20px;
+    
+
+}
+.pizza1{
+    position: absolute;
+    bottom: -80px;
+    left: -65px;
+    padding: 0px;
+    height: 220px;
+   width:220px;
+   
+}
+.pizza2{
+    position: absolute;
+    bottom: -60px;
+    left: 35px;
+    padding: 0px;
+    height: 120px;
+   width:320px;
+   object-fit: cover;
+  
+
+   
+}
+.pizza3{
+    position: absolute;
+    bottom: -80px;
+  right: -65px;
+    padding: 0px;
+    height: 220px;
+   width:220px;
+}
+.topbar-wrapper{
+    position: relative;
+height: 600px;
+
+}
+.active{
+    border-bottom:3px solid #ff784a;
+}
+.orderbutton-wrapper{
+    
+    width:350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ordernow{
+background-color: #ff784a;
+border: none;
+color: white !important;
+font-family: "Roboto", "Helvetica Neue";
+border-radius: 20px;
+height: 40px;
+width:150px;
+cursor: pointer !important;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.reviews{
+    border:2px solid #ff784a ;
+    color: #ff784a !important;
+border-radius: 20px;
+background-color:inherit ;
+height: 40px;
+width:150px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+cursor: pointer;
+}
+
+
+.topbarRight{
+    display: flex;
+    justify-content: space-around;
+   
+        width: 180px;
+       
+   
+    list-style: none;
+   
+    color: rgb(19 97 92);
+    
+}
+.topbarCenter>p{
+    width:300px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(19 97 92);
+    margin-top: 10px ;
+}
+.topbarRight>li{
+    
+    height: 30px;
+    cursor: pointer;
+    
+    font-weight: 200;
+}
+.disable{
+    border:none
+}
+.topbarCenter{
+    position: absolute;
+    top:80px;
+    left:-10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    font-family: serif;
+}
+.bestdeals{
+    margin-bottom: 0;
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 25px;
+
+}
+.topbarCenter>h1{
+    width:400px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color:rgb(19 97 92) ;
+    font-weight:bold;
+    font-size: 30px;
+  margin-top: 20px;
+    margin-bottom: 5px;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 20px;
+    height: 520px;
+   
+   width:420px;
+    background-color: #fff1cc;
+    clip-path: ellipse(150% 100% at 49% 0%)
+}
+.quantity{
+position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    top:0px;
+    right:-5px;
+    color: #ff784a;
+}
+.shopping{
+    position: relative;
+}
+
+
+
+@media(min-width:768px){
+.topbar-wrapper{
+    display: inline;
+}
+.hamburgericon{
+    display: none !important;
+}
+.topbarLeft{
+    display: flex !important;
+    position: relative;
+    top: 0;
+    padding-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    width:250px;
+    background-color: #fff1cc;
+    padding-left: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    margin: 0;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    padding-left:40px ;
+
+   
+}
+.logopic{
+    margin-top: -15px;
+    height: 70px;
+    width: 80px;
+}
+.topbarLeft>li{
+    list-style: none;
+    color: rgb(19 97 92);
+    font-weight: 400;
+    cursor: pointer;
+    
+    height: 20px;
+    
+
+}
+.pizza1{
+    position: absolute;
+    bottom: -70px;
+    left: -100px;
+    padding: 0px;
+    height: 350px;
+   width:350px;
+   
+}
+.pizza2{
+    position: absolute;
+    bottom: -100px;
+    left: 430px;
+    padding: 0px;
+    height: 250px;
+   width:450px;
+   object-fit: cover;
+  
+
+   
+}
+.pizza3{
+    position: absolute;
+    bottom: -60px;
+  right: -100px;
+    padding: 0px;
+    height: 350px;
+   width:350px;
+}
+.topbar-wrapper{
+    position: relative;
+height: 600px;
+
+}
+.active{
+    border-bottom:3px solid #ff784a;
+}
+.orderbutton-wrapper{
+    
+    width:350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ordernow{
+background-color: #ff784a;
+border: none;
+color: white !important;
+font-family: "Roboto", "Helvetica Neue";
+border-radius: 20px;
+height: 40px;
+width:150px;
+cursor: pointer !important;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.reviews{
+    border:2px solid #ff784a ;
+    color: #ff784a !important;
+border-radius: 20px;
+background-color:inherit ;
+height: 40px;
+width:150px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+cursor: pointer;
+}
+
+
+.topbarRight{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+        width: 150px;
+    padding-right: 100px;
+    list-style: none;
+   
+    color: rgb(19 97 92);
+    
+}
+.topbarCenter>p{
+    width:500px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(19 97 92);
+    margin-top: 10px ;
+}
+.topbarRight>li{
+    
+    height: 30px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.disable{
+    border:none
+}
+.topbarCenter{
+    position: absolute;
+    top:80px;
+    left:420px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    font-family: serif;
+}
+.bestdeals{
+    margin-bottom: 0;
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 25px;
+
+}
+.topbarCenter>h1{
+    width:500px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color:rgb(19 97 92) ;
+    font-weight:bold;
+    font-size: 50px;
+  margin-top: 20px;
+    margin-bottom: 5px;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 20px;
+    height: 520px;
+   width:100vw;
+    background-color: #fff1cc;
+    clip-path: ellipse(81% 100% at 49% 0%)
+}
+.quantity{
+position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    top:0px;
+    right:-5px;
+    color: #ff784a;
+}
+.shopping{
+    position: relative;
+}
+
+}

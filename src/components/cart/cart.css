@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Grape+Nuts&family=Lobster&family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Quattrocento+Sans:ital@1&family=Roboto+Slab:wght@500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600&family=Water+Brush&display=swap');
+
+
+.cart-wrapper{
+  
+    padding-left: 10px;
+    letter-spacing: 2px;
+    font-family: "Roboto", "Helvetica Neue";
+}
+.cart-header{
+font-size: 10px;
+
+}
+.cart-category{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-size: 10px;
+    
+}
+.sub-category{
+    display: flex;
+ padding-left: 140px;
+    justify-content: space-between;
+    width:600px;
+}
+.itemquantity{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100px;
+    
+}
+.itemquantity>button{
+    border:none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.image{
+    height: 130px;
+    width: 80px;
+padding-left: 80px;
+    object-fit: cover;
+}
+.image-wrapper{
+    display: flex;
+    justify-content: space-around;
+   
+    width:200px;
+}
+.image-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: flex-start; 
+font-size: 12px;
+padding: 10px;
+   
+
+font-weight: 600;
+}
+.totalamount{
+ 
+
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+    width:350px;
+    height: 80px;
+}
+.subcategory{
+    color: #ff784a;
+}
+.cart-itemsdescription{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    width:200px;
+    
+margin-left: -25px;
+    font-size: 9px;
+   font-weight: 900;
+   
+}
+.ordertokenbtn{
+background-color: rgb(4, 139, 192);
+border: none;
+color: white !important;
+height: 40px;
+font-size: 15px;
+width:170px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Roboto',sans-serif;
+letter-spacing: 2px;
+cursor: pointer;
+border-radius: 10px;
+margin-right: 900px;
+}
+.buynow{
+    border: none;
+    background-color: #fff1cc;
+    color:rgb(19 97 92);
+    width:100vw;
+    height:50px;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Roboto', serif;
+    letter-spacing: 2px;
+}
+.cart-items{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media(min-width:768px){
+    .cart-wrapper{
+        padding: 50px;
+        letter-spacing: 2px;
+        font-family: "Roboto", "Helvetica Neue";
+    }
+    .cart-header{
+        font-size:16px;
+    }
+    .cart-category{
+        display: flex;
+        justify-content: space-between;
+        color: grey;
+        font-size: 16px;
+        
+    }
+    .sub-category{
+        display: flex;
+     
+        justify-content: space-between;
+        width:500px;
+    }
+    .itemquantity{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width:100px;
+        
+    }
+    .itemquantity>button{
+        border:none;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .image{
+        height: 200px;
+        width: 200px;
+    padding-left: 0px;
+        object-fit: cover;
+    }
+    .image-wrapper{
+        display: flex;
+        justify-content: space-around;
+       
+        width:400px;
+    }
+    .image-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    align-items: flex-start; 
+    font-size: 16px;
+    padding: 10px;
+       
+    
+    font-weight: 600;
+    }
+    .totalamount{
+        
+        height: 30px;
+        margin-top: 0;
+        display: flex;
+        justify-content: flex-end;
+        width:1200px;
+    }
+    .subcategory{
+        color: #ff784a;
+    }
+    .cart-itemsdescription{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        width:500px;
+       font-weight: 600;
+       margin-left: 0px;
+    }
+    .buynow{
+        border: none;
+        background-color: #fff1cc;
+        color:rgb(19 97 92);
+        width:100vw;
+        height:50px;
+        font-weight: bolder;
+        font-size: 30px;
+        cursor: pointer;
+        font-family: 'Roboto', serif;
+        letter-spacing: 2px;
+    }
+    .cart-items{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
