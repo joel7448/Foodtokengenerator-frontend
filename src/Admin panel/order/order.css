@@ -1,0 +1,50 @@
+.orderpage-wrapper{
+    display:flex;
+
+}
+.sidebar-admin{
+    flex:1;
+}
+.table-user{
+    flex:12;
+    
+}
+.CRUDS{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:160px;
+}
+.user-admin-edit{
+    color: rgb(63, 113, 70);
+    
+}
+.userlistdelete{
+    color: rgb(127, 36, 36);
+}
+.tokensearch{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.tokensearch input{
+    height: 40px;
+    margin: 10px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+}
+.tokensearch button{
+    height: 45px;
+    width:100px;
+    cursor: pointer;
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10px;
+   
+}
+.tokensearch button:hover{
+    background-color: white;
+    color: darkblue;
+}

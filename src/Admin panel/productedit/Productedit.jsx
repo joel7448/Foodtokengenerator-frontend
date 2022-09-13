@@ -1,4 +1,4 @@
-import { AddShoppingCart, Home, LogoutOutlined, Sell } from '@mui/icons-material'
+import { AddShoppingCart, DiningOutlined, Home, LogoutOutlined, Sell } from '@mui/icons-material'
 import axios from 'axios'
 import { useFormik } from 'formik'
 import React from 'react'
@@ -97,8 +97,9 @@ useEffect(()=>{
           <Link className="link" to={`/admin/${id}`}><Home/></Link>
           
         </li>
-        <li className="sidebarlist"> <Link className="link" to={`/admin/products/${id}`}><Sell/></Link></li>
+        <li className="sidebarlist"> <Link className="link" to={`/admin/products/${id}`}><DiningOutlined/></Link></li>
         <li className="sidebarlist"><Link className='link' to={`/admin/menuupdate/${id}`}><AddShoppingCart/></Link></li>
+        <li className="sidebarlist"><Link className='link' to={`/admin/orders/${id}`}><Sell/></Link></li>
         <li onClick={()=>{logout()}} className="sidebarlist"><LogoutOutlined/></li>
       </ul>
     </div>

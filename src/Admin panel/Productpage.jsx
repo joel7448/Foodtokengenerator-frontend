@@ -1,4 +1,4 @@
-import { AddShoppingCart, Delete, Edit, Home, LogoutOutlined, RateReview, Sell, Star } from '@mui/icons-material'
+import { AddShoppingCart, Delete, DiningOutlined, Edit, Home, LogoutOutlined, RateReview, Sell, Star } from '@mui/icons-material'
 import { IconButton, Rating, Tooltip } from '@mui/material'
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
@@ -64,8 +64,9 @@ navigate( `/admin/edit/${product_id}`);
           
         </li>
         
-        <li className="sidebarlist"> <Link className="link" to={`/admin/products/${id}`}><Sell/></Link></li>
+        <li className="sidebarlist"> <Link className="link" to={`/admin/products/${id}`}><DiningOutlined/></Link></li>
         <li className="sidebarlist"><Link className='link' to={`/admin/menuupdate/${id}`}><AddShoppingCart/></Link></li>
+        <li className="sidebarlist"><Link className='link' to={`/admin/orders/${id}`}><Sell/></Link></li>
         <li onClick={()=>{logout()}} className="sidebarlist"><LogoutOutlined/></li>
       </ul>
     </div>

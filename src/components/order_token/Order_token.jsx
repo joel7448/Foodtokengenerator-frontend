@@ -32,14 +32,18 @@ useEffect(()=>{
     },[])
 
 
-  return (<div className = "ordertoken">
-  <h1>Your Order Token</h1>
+  return (<>
+  <h1 className='tokenheader'>Order Token</h1>
+  <div className = "ordertoken">
+ 
   {token.map((x)=>{
-    return(<div className="orders"><p>Order token: {x.order_token}</p>
+    return(<div className={`orders ${x.status}`}><p>Order token: {x.order_token}</p>
+    <p>Order Status: {x.status}</p>
     <p>Total Amount : {x.Amount}</p></div>)
   })}
     
     </div>
+    </>
   )
 }
 

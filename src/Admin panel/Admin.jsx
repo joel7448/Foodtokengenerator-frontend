@@ -1,6 +1,6 @@
 import "./admin.css"
 import Adminnavbar from "./Adminnavbar"
-import {AddShoppingCart, Home, LogoutOutlined, Sell, ShoppingCart} from "@mui/icons-material"
+import {AddShoppingCart, DiningOutlined, Home, LogoutOutlined, Sell, ShoppingCart} from "@mui/icons-material"
 import React, { PureComponent } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
@@ -110,8 +110,9 @@ navigate("/admin/login");
           <Link className="link" to={`/admin/${id}`}><Home/></Link>
           
         </li>
-        <li className="sidebarlist"> <Link className="link" to={`/admin/products/${id}`}><Sell/></Link></li>
+        <li className="sidebarlist"> <Link className="link" to={`/admin/products/${id}`}><DiningOutlined/></Link></li>
         <li className="sidebarlist"><Link className='link' to={`/admin/menuupdate/${id}`}><AddShoppingCart/></Link></li>
+        <li className="sidebarlist"><Link className='link' to={`/admin/orders/${id}`}><Sell/></Link></li>
         <li onClick={()=>{logout()}} className="sidebarlist"><LogoutOutlined /></li>
       </ul>
     </div>
@@ -124,7 +125,7 @@ navigate("/admin/login");
 
 </div>
 <div className="linechart">
-    <h3>Sales</h3>
+    <h3>Monthly Sales</h3>
 <ResponsiveContainer width="100%" aspect={4/1}>
         <AreaChart
           width={500}
@@ -133,13 +134,13 @@ navigate("/admin/login");
           margin={{
             top: 10,
             right: 30,
-            left: 0,
+            left:30,
             bottom: 0,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
-          <YAxis />
+         
           <Tooltip />
           <Area type="monotone" dataKey="uv" stroke="#8884d8" fill="#8884d8" />
         </AreaChart>

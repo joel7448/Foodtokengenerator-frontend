@@ -1,0 +1,39 @@
+.adminsidebar{
+    flex:1;
+    height:100vh;
+    width:50px;
+    background-color: aliceblue;
+    display: flex;
+    margin-right: 10px;
+    /* justify-content: center; */
+
+    align-items: center;
+}
+.sidebarlist{
+    list-style: none;
+border-radius: 50%;
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30px;
+width: 30px;
+color: #0e3a67;
+margin-left: 0px;
+padding: 5px;
+}
+.sidebarlist:hover{
+    background-color: #1976d2;
+    color: white;
+    
+}
+.sidebarul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   height: 100% ;
+   
+    align-items: left;
+   
+   
+}

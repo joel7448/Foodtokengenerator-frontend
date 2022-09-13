@@ -21,6 +21,7 @@ import Updatemenu from '../Admin panel/Updatemenu/Updatemenu';
 import Productedit from '../Admin panel/productedit/Productedit';
 import Mobilenavbar from '../components/topbar/mobile-navbar/Mobilenavbar';
 import Order_token from '../components/order_token/Order_token';
+import Order from '../Admin panel/order/Order';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
 <Route path="/admin/menuupdate/:id" element={<Updatemenu/>}/>
 <Route path="/admin/edit/:id" element={<Productedit/>}/>
 <Route path="/ordertoken/:id" element={<Order_token/>}/>
+<Route path="/admin/orders/:id" element={<Order/>}/>
 </Routes>
 </BrowserRouter>
    </>
